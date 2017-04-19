@@ -1,0 +1,4 @@
+wj-linear-gauge(:value='gaugeData.value', :min='gaugeData.min', :max='gaugeData.max', :format='gaugeData.format')
+.app-input-group
+  label value
+  wj-input-number(:value='gaugeData.value', :value-changed='valueChanged', :min='gaugeData.min', :max='gaugeData.max', :format='gaugeData.format', :step='gaugeData.step')
